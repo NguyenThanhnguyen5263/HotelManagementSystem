@@ -5,7 +5,9 @@ using System.Text;
 
 namespace DTO
 {
-    class QUYEN
+    public class QUYEN
     {
+        public int MAQUYEN { get; set; }
+        public string TENQUYEN { get; set; }
     }
 }

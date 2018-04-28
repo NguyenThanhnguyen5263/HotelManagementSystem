@@ -5,7 +5,11 @@ using System.Text;
 
 namespace DTO
 {
-    class PHUTHU
+   public class PHUTHU
     {
+      public string MAPHUTHU         {get;set;}
+      public string  LYDOPHUTHU      {get;set;}
+      public float  SOTIENPHUTHU          {get;set;}
+      public DateTime THOIGIANTHU { get; set; }
     }
 }

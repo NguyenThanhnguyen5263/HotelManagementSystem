@@ -5,7 +5,9 @@ using System.Text;
 
 namespace DTO
 {
-    class TINHTRANGPHONG
+   public class TINHTRANGPHONG
     {
+        public string MATINHTRANG { get; set; }
+        public string TENTINHTRANG { get; set; }
     }
 }

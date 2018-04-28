@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace DTO
+﻿namespace DTO
 {
-    class PHIEUDATPHONG
+    public class PHIEUDATPHONG
     {
+        public string MAPHIEUTHUE { get; set; }
+        public string MAKH { get; set; }
+        public string MANV { get; set; }
     }
 }

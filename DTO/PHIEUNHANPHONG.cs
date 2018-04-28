@@ -5,7 +5,11 @@ using System.Text;
 
 namespace DTO
 {
-    class PHIEUNHANPHONG
+   public class PHIEUNHANPHONG
     {
+      public string  MAPHIEUNHANPHONG    {get;set;}
+      public string  MAPHIEUTHUE         {get;set;}
+      public string  MAKH                {get;set;}
+      public string GIONHANPHONG { get; set; }
     }
 }

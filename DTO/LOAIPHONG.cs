@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace DTO
+﻿namespace DTO
 {
-    class LOAIPHONG
+    public class LOAIPHONG
     {
+        public string MALOAI { get; set; }
+        public string TENLOAI { get; set; }
+        public int MADONGIA { get; set; }
+        public float SONGUOITOIDA { get; set; }       
     }
 }
